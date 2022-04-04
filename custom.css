@@ -1,0 +1,26 @@
+/* remove home button */
+.button-addressfield.home,
+.button-tabbar.home,
+.button-toolbar-small.home,
+.button-toolbar.home {
+  display: none !important;
+}
+
+/* remove vivaldi button */
+button.vivaldi {
+  display: none !important;
+}
+.tab-strip,
+#tabs-container .resize {
+  margin-left: -14px;
+}
+
+/* remove favicon highlight */
+.tab.active .favicon {
+  filter: none !important;
+}
+
+/* remove trash button */
+.toolbar-tabbar.sync-and-trash-container {
+  display: none;
+}
